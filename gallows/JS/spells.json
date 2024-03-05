@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"title": "The Magic of Life",
+		"spellInfo": "Gain an extra life",
+		"price": 500,
+		"imgSrc": "/assets/images/action-bar/heart-magic.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Trick Magic",
+		"spellInfo": "Reveals 2 letters in a word",
+		"price": 1000,
+		"imgSrc": "/assets/images/action-bar/lamp-magic.png"
+	},
+	{
+		"id": 3,
+		"title": "The Magic of Time",
+		"spellInfo": "Gives you an extra 30 seconds",
+		"price": 300,
+		"imgSrc": "/assets/images/action-bar/time-magic.jpg"
+	}
+]

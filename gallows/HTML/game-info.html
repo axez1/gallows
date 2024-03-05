@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/CSS/main.css">
+  <title>game info</title>
+</head>
+<body>
+  <div class="preloader" id="preloader">
+    <span class="loader"></span>
+  </div>
+  <header id="swup" class="game__info transition-fade">
+    <div class="container">
+      <div class="game__info-wrapper">
+        <video class="header__video" src="/assets/video/smoke-background-optimized.mp4" autoplay loop muted></video>
+        <div class="game__info-wrapper-items">
+          <div class="header__logo">
+            <a href="/HTML/index.html">EASYGAME</a>
+          </div>
+          <div class="header__tavern active">
+            <a href="#tavern">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <use xlink:href="/assets/boxicons-2.1.4/svg/logos/bxl-shopify.svg#shopify"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="game__info-tavern">
+          <div class="game__info-total">1000</div>
+          <div class="game__info-ability" id="ability-container"></div>
+          <div class="game__info-cart card">
+            <div class="card-body">
+              <div class="card-body-title">YOUR CHOICES</div>
+              <div data-cart-empty class="alert alert-secondary" role="alert">INVENTORY EMPTY</div>
+              <div class="cart-wrapper"></div>
+            </div>
+            <div id="order-form" class="card-body">
+              <h5 class="card-title">IS MAGIC CHOSEN?</h4>
+              <div class="cart-total">
+                <p><span class="h5">Total:</span> <span class="total-price">0</span></p>
+              </div>
+              <form>
+                <button type="submit" class="btn-tavern">APPLY</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="game__info-rules">
+          <div class="game__info-container">
+            <div class="game__info-slogan">
+              <h2>RULES OF THE GAME</h2>
+            </div>
+            <div class="game__info-text">
+              <p>Greetings, daredevil! Today you will have to pass the test of the "word", which will decide whether you will be able to return home to your relatives...</p>
+              <p>So, let's get started... But first, I'll explain the rules of the game to you:</p>
+              <ul>
+                <li>You only have 6 lives;</li>
+                <li>Time does not forgive anything - you only have 3 minutes to guess the word;</li>
+                <li>When time runs out of time, you'll start losing one life every 30 seconds;</li>
+              </ul>
+              <p>Oh yes, don't forget to stop by Mr. Brodeley's tavern, maybe he'll have something for you in your hard work.</p>
+            </div>
+          </div>
+          <div class="game__info-action">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <use xlink:href="/assets/boxicons-2.1.4/svg/solid/bxs-hand-right.svg#run"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="game__info-footer">
+          <div class="game__info-footer-copyright">
+            <p>© 2024 EasyGame, Inc. </p>
+          </div>
+          <nav class="game__info-nav">
+            <ul>
+              <li><a href="/HTML/index.html">MAIN</a></li>
+              <li><a class="active" href="#gameInfo">GAME INFO</a></li>
+              <li><a href="/HTML/about.html">ABOUT</a></li>
+              <li><a href="#heroes">HEROES</a></li>
+            </ul>
+          </nav>
+          <div class="header__footer-audio">
+            <svg alt="soundbutton" class="soundbutton paused" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <use xlink:href="/assets/boxicons-2.1.4/svg/solid/bxs-volume-full.svg#vol"></use>
+            </svg>
+            <audio class="audio" src="/assets/audio/main-audio/main-audio.mp3" loop autoplay></audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <script src="/JS/main.js"></script>
+</body>
+</html>
